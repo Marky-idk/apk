@@ -1,6 +1,6 @@
 # Sample repository at https://github.com/Novfensec/SAMPLE-KIVYMD-APP
 # Tic Tac Toe Game at https://github.com/Novfensec/Tic-Tac-Toe-Android
-
+#uses
 name: Android Build
 
 on:
@@ -107,7 +107,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11' #set your python version
+          python-version: '3.10' #set your python version
 
       # Install pip dependencies
       - name: Install pip dependencies
