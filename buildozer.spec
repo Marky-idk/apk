@@ -40,7 +40,7 @@ version = 0.1
 requirements = python3,kivy=2.2.1
 
 # (Inside the [app] section)
-android.ndk = 23c
+android.ndk = 25b
 android.add_build_dir_args = --extra-cflags=-Wno-error# (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
 # requirements.source.kivy = ../../kivy
